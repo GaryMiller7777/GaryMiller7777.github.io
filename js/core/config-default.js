@@ -6,11 +6,16 @@ sofia.config = {
 	// Enables the use of online sources (Google Maps, FCBH, Jesus Film, etc.)
 	enableOnlineSources: true,
 
+	// Enables the use of AI Queries
+	enableAIQuery: true,
+
 	// first load
 	windows: [
-		{type: 'bible', data: {textid: 'ENGNAS', fragmentid: 'JN1_1'}},
-		{type: 'bible', data: {textid: 'grc_tisch', fragmentid: 'JN1_1'}},
-		{type: 'search', data: {textid: 'ENGNAS', searchtext:'truth love'}}
+		{type: 'bible', data: {textid: 'eng_asv', fragmentid: 'JN1'}},
+		//{type: 'bible', data: {textid: 'grc_tisch', fragmentid: 'JN1_1'}},
+		//{type: 'search', data: {textid: 'ENGNAS', searchtext:'truth love'}},
+		{ type: 'commentary', data: { textid: 'comm_eng_tske', fragmentid: 'JN1_1'}},
+		{type: 'chatgpt', data: {textid: '', searchtext: ''}}
 	],
 
 	// URL to content

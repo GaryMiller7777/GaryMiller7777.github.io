@@ -81,6 +81,9 @@ sofia.resources['en'] = {
 			"commentary": {
 				"label": "Commentary"
 			},
+			"chatgpt": {
+				"label": "ChatGPT"
+			},
 			"map": {
 				"label": "Map",
 				"placeholder": "Search..."
